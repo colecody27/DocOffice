@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:fantasy;
+}
+html{
+    background-color: rgba(164, 2, 185, 0.979);
+}
+
+.background1{
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/09/22/47/lotus-flower-5151674_1280.jpg);
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    
+}
+
+.background2{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/15/07/37/water-lilies-1825477_1280.jpg);
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+}
+
+header{
+    height: 6vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: rgba(164, 2, 185, 0.979);
+}
+
+.headerContent{
+    font-size: 3.8vw;
+    text-align: center;
+    color: white;
+    flex:1;
+    margin-top: 30px;
+}
+
+.headerLogo{
+    width: 5vw;
+    height: 4vw;
+    margin-top: 50px;
+    margin-right: 20px;
+    flex:1;
+}
+
+.hamburgerOptions{
+    width: 3vw;
+    height: 3vw;
+    position:sticky;
+    float:left;
+    top:20px;
+}
+
+#hamLinks{
+    display:none;
+    color:white;
+    position:sticky;
+    float:left;
+    font-size: 1.5vw;
+    top:30px;
+    padding-left: 10px;
+}
+
+#hamLinks a:hover{
+    cursor: pointer;
+}
+
+.hamLinks a{
+
+
+}
+
+.hamburgerOptions:hover{
+    cursor: pointer;
+}
+
+.headerLogo:hover{
+    cursor: pointer;
+}
+
+.directory{
+    text-align: center;
+    align-items: center;
+    background-color: rgba(164, 2, 185, 0.979);
+}
+
+.directoryList{
+    display: flex;
+    font-size: 2vw;
+}
+
+.directory li{
+    list-style: none;
+    display: inline-block;
+    flex:1;
+}
+
+.directory li:hover{
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+}
+
+.treatmentOptions{
+    display:inline-flexbox;
+    
+}
+
+.option1{
+    height:auto;
+    width: 50vw;
+    background-color: black;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    color:white;
+    border-radius: 20px;
+}
+
+.loginInput{
+    height:auto;
+    width: 25vw;
+    background-color: black;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    color:white;
+    border-radius: 20px;
+}
+
+/*.option2{*/
+/*    height: auto;*/
+/*    width: 20vw;*/
+/*    background-color: black;*/
+/*    float: left;*/
+/*    margin-left: 10%;*/
+/*    margin-top: 10%;*/
+/*    color:white;*/
+/*    border-radius: 20px;*/
+/*}*/
+
+/*.option3{*/
+/*    height: auto;*/
+/*    width: 20vw;*/
+/*    background-color: black;*/
+/*    float: left;*/
+/*    margin-left: 10%;*/
+/*    margin-top: 10%;*/
+/*    color:white;*/
+/*    border-radius: 20px;*/
+/*}*/
+
+.optionTitle{
+    text-align: center;
+    font-size: 3vw;
+}
+
+.optionBody{
+    text-align: center;
+}
+
+.contactUs{
+    font-size: 2.5vw;
+    color:white;
+    text-align: center;
+}
+
+.contactInfo{
+    height: 20vw;
+    max-height: 120px;
+    width: 100%;
+    background-color: rgba(164, 2, 185, 0.979);
+    display:inline-flex;
+    color:white;
+    font-size: 1.2vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.footerLogoImg{
+    width: 5vw;
+    height: 4vw;
+}
