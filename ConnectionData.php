@@ -1,5 +1,5 @@
 <?php
-    $conn = mysqli_connect('127.0.0.1', 'root', 'Bluecircle8');
+    $conn = mysqli_connect('127.0.0.1', 'root', 'dummyPassword');
     if (!$conn) {
         die('Could not connect to mysql. '.mysqli_error($conn));
     }
