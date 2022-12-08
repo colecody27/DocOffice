@@ -1,7 +1,7 @@
 
-CREATE DATABASE DocOfficeNew;
+CREATE DATABASE DocOffice;
 
-USE DocOfficeNew;
+USE DocOffice;
 
 CREATE TABLE DOCTOR (
 Doctor_ID char(7) NOT NULL, -- PRIMARY KEY
