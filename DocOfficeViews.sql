@@ -1,4 +1,4 @@
-USE DocOfficeNew;
+USE DocOffice;
 
 -- 2 
 CREATE VIEW connect AS 
